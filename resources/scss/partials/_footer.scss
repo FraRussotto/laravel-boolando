@@ -1,0 +1,25 @@
+footer {
+    background-color: $footer-bg-color;
+    height: 90px;
+    color: white;
+    padding-top: 15px;
+    .bottom_bar {
+        height: 100%;
+        .left {
+            li {
+                margin-right: 5px;
+                font-size: 0.6rem;
+            }
+        }
+        .right {
+            text-align: center;
+            span {
+                font-size: 0.8rem;
+                margin-left: 10px;
+            }
+            li {
+                margin-left: 10px;
+            }
+        }
+    }
+}
