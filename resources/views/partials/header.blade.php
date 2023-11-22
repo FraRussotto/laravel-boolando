@@ -16,7 +16,9 @@
         </div>
 
         <div class="logo">
-            <img src="/boolean-logo.png" alt="">
+
+            <img src="{{ Vite::asset('resources/img/boolean-logo.png') }}" alt="">
+
         </div>
 
         <div class="nav_right">
