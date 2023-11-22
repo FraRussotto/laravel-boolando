@@ -12,7 +12,9 @@
         crossorigin='anonymous' />
 
     <title>Laravel Boolando</title>
+
     @vite('resources/js/app.js')
+
 </head>
 
 <body>
@@ -27,10 +29,5 @@
 
 </body>
 
-<style>
-    main {
-        height: 800px;
-    }
-</style>
 
 </html>
