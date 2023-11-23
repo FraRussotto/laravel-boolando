@@ -3,8 +3,8 @@
 @section('content')
     <div class="main_wrapper container">
         <div class="row row-cols-3">
-            <div class="col">
-                @foreach ($products as $product)
+            @foreach ($products as $product)
+                <div class="col">
                     <div class="card">
                         <div class="card_image">
                             <img src="{{ Vite::asset('resources' . $product['src']) }}" alt="">
@@ -23,8 +23,8 @@
                                 &euro;</span>
                         </div>
                     </div>
-                @endforeach
-            </div>
+                </div>
+            @endforeach
         </div>
     </div>
 @endsection
